@@ -1,0 +1,16 @@
+{
+  "name": "exchange",
+  "version": "1.0.0",
+  "description": "RNSSolutions Technical Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agha Rameez Gul Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "redis": "^3.0.2"
+  }
+}

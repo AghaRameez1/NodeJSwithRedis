@@ -1,0 +1,13 @@
+Express js with redis and postgresql
+
+Following are the end-points:
+
+-GET  /order, getOrders(contains all the orders from db)
+-GET  /order/:id getOrderById(get one result on the basis of ID)
+-POST /orders (Create one record), body:{side, price} 
+-GET /orders/:price getOrderByPrice( get one result on the basis of Price)
+
+
+-POST /orderTree (Creates Order Tree, body:{side, price}) 
+-POST /redisChannel (Creates a redis channel with PUB/SUB and set hget and delete by hdel)
+
